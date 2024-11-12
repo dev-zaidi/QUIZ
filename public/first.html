@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML QUIZ</title>
+     <!-- styling links -->
+     <link rel="stylesheet" href="style.css">
+     <!-- bootstrap library link -->
+     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+     <!-- font awesome library link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+     <!-- database links -->
+     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+</head>
+<body onload="nextQuestion()">
+    <div class="container homepage">
+        <h1 class="heading">QUIZ WIZZ</h1>
+        <div class="main">
+            <div class="m-3 p-3">
+                <p id="ques">Q1: HTML stands for?</p>
+                <br>
+                <input type="radio" value="1" class="options" onclick="clicked()" name="option" ><label id="opt1">option 1</label>                
+                <br><br>
+                <input type="radio" value="2" class="options" onclick="clicked()" name="option" ><label id="opt2">option 2</label>
+                <br><br>
+                <input type="radio" value="3" class="options" onclick="clicked()" name="option" ><label id="opt3">option 3</label>
+                <br><br><br>
+                
+                <button disabled id="btn" onclick="nextQuestion()">Next Question</button>
+                
+            </div>
+
+
+        </div>
+    </div>
+   
+    <script src="first.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

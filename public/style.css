@@ -1,0 +1,54 @@
+*{
+    color: black;
+}
+.homepage{
+    height: 100vh;
+    background: url(images/bg-14.jpg);
+}
+.main{
+    height: 85vh;
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.htmlIcon{
+    color: orangered;
+}
+.cssIcon{
+    color: rgb(25, 25, 129);
+}
+.jsIcon{
+    color: orange;
+}
+.html, .css, .js{
+    padding: 12px;
+    margin: 10px;
+    width: 35vh;
+    height: 22vh;
+    border-radius: 12px;
+    border: none;
+    font-size: 10vh;
+    text-align: center;
+    /* background: url(images/bg-14.jpg); */
+}
+.inputStyle{
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(247, 238, 228);
+}
+.loginForm{
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#btn,.btn{
+    border-radius: 10px;
+    height: 30px;
+    border: none;    
+}

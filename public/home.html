@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZ APP</title>
+    <!-- styling links -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap library link -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!-- font awesome library link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- database links -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+  </head>
+  <body>
+    
+    <div class="container-fluid homepage">
+      <h1 class="heading">QUIZ WIZZ</h1> 
+      <div class="main">
+        <!-- <div class="row">
+        <div class="text-center">
+          <input class="inputStyle"  class="inputStyle" id="name" type="text" placeholder="Enter Name"><br><br>
+          <input class="inputStyle" id="email" type="email" placeholder="Enter Email"><br><br>
+          <input class="inputStyle" id="password" type="password" placeholder="Enter Password"><br><br>
+          <button onclick="saveData()">Enter QuizWizz</button>
+           <button onclick="deleteData()">Delete Data</button>
+        </div>
+        </div> -->
+
+            <div class="options1 row">
+              <h5 class="p-3 text-center">Which course would you like to improve today?</h5> 
+              <div class="col-lg-4 col-sm-12 text-center">
+                <button class="html" onclick="window.location='first.html'"><i class="fa-brands fa-html5 htmlIcon"></i>
+                <p style="font-size: 18px;">HTML 5</p></button>
+              </div>
+
+              <div class="col-lg-4 col-sm-12 text-center">
+                <button class="css" onclick="window.location='second.html'" ><i class="fa-brands fa-css3-alt cssIcon"></i>
+                  <p style="font-size: 18px;">CSS 3</p></button>
+              </div>
+
+              <div class="col-lg-4 col-sm-12 text-center">
+                <button class="js" onclick="window.location='third.html'"><i class="fa-brands fa-js jsIcon"></i>
+                  <p style="font-size: 18px;">JavaScript</p></button>
+              </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+ 
+
+
+    <script src="first.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
